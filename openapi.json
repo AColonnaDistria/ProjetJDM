@@ -1,0 +1,1156 @@
+{
+  "info": {
+    "title": "Litestar API",
+    "version": "1.0.0"
+  },
+  "openapi": "3.1.0",
+  "servers": [
+    {
+      "url": "/"
+    }
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "summary": "RedirectSchema",
+        "operationId": "RedirectSchema",
+        "responses": {
+          "200": {
+            "description": "Redirect Response",
+            "headers": {
+              "location": {
+                "schema": {
+                  "type": "string"
+                },
+                "name": "",
+                "in": "header",
+                "description": "target path for the redirect",
+                "required": false,
+                "deprecated": false,
+                "allowEmptyValue": false,
+                "allowReserved": false
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/v0/node_by_id/{node_id}": {
+      "get": {
+        "summary": "JdmmlPublicNodeGetById",
+        "operationId": "V0NodeByIdNodeIdJdmmlPublicNodeGetById",
+        "parameters": [
+          {
+            "name": "node_id",
+            "in": "path",
+            "schema": {
+              "type": "integer"
+            },
+            "required": true,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Request fulfilled, document follows",
+            "headers": {},
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DC_PublicNode"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request syntax or unsupported method",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "status_code": {
+                      "type": "integer"
+                    },
+                    "detail": {
+                      "type": "string"
+                    },
+                    "extra": {
+                      "additionalProperties": {},
+                      "type": [
+                        "null",
+                        "object",
+                        "array"
+                      ]
+                    }
+                  },
+                  "type": "object",
+                  "required": [
+                    "detail",
+                    "status_code"
+                  ],
+                  "description": "Validation Exception",
+                  "examples": [
+                    {
+                      "status_code": 400,
+                      "detail": "Bad Request",
+                      "extra": {}
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/v0/node_by_name/{node_name}": {
+      "get": {
+        "summary": "JdmmlPublicNodeGetByName",
+        "operationId": "V0NodeByNameNodeNameJdmmlPublicNodeGetByName",
+        "parameters": [
+          {
+            "name": "node_name",
+            "in": "path",
+            "schema": {
+              "type": "string"
+            },
+            "required": true,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Request fulfilled, document follows",
+            "headers": {},
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DC_PublicNode"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request syntax or unsupported method",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "status_code": {
+                      "type": "integer"
+                    },
+                    "detail": {
+                      "type": "string"
+                    },
+                    "extra": {
+                      "additionalProperties": {},
+                      "type": [
+                        "null",
+                        "object",
+                        "array"
+                      ]
+                    }
+                  },
+                  "type": "object",
+                  "required": [
+                    "detail",
+                    "status_code"
+                  ],
+                  "description": "Validation Exception",
+                  "examples": [
+                    {
+                      "status_code": 400,
+                      "detail": "Bad Request",
+                      "extra": {}
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/v0/refinements/{node_name}": {
+      "get": {
+        "summary": "JdmmlPublicNodeGetRefinements",
+        "operationId": "V0RefinementsNodeNameJdmmlPublicNodeGetRefinements",
+        "parameters": [
+          {
+            "name": "node_name",
+            "in": "path",
+            "schema": {
+              "type": "string"
+            },
+            "required": true,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Request fulfilled, document follows",
+            "headers": {},
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/DC_PublicNode"
+                  },
+                  "type": "array"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request syntax or unsupported method",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "status_code": {
+                      "type": "integer"
+                    },
+                    "detail": {
+                      "type": "string"
+                    },
+                    "extra": {
+                      "additionalProperties": {},
+                      "type": [
+                        "null",
+                        "object",
+                        "array"
+                      ]
+                    }
+                  },
+                  "type": "object",
+                  "required": [
+                    "detail",
+                    "status_code"
+                  ],
+                  "description": "Validation Exception",
+                  "examples": [
+                    {
+                      "status_code": 400,
+                      "detail": "Bad Request",
+                      "extra": {}
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/v0/nodes_types": {
+      "get": {
+        "summary": "JdmmlPublicNodeTypeGetAll",
+        "description": "# Les types de noeuds présents dans la table Nodes",
+        "operationId": "V0NodesTypesJdmmlPublicNodeTypeGetAll",
+        "responses": {
+          "200": {
+            "description": "Request fulfilled, document follows",
+            "headers": {},
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/DC_PublicNodeType"
+                  },
+                  "type": "array"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/v0/relations/from/{node1_name}": {
+      "get": {
+        "summary": "JdmmlPublicRelationGetRelationsFrom",
+        "operationId": "V0RelationsFromNode1NameJdmmlPublicRelationGetRelationsFrom",
+        "parameters": [
+          {
+            "name": "node1_name",
+            "in": "path",
+            "schema": {
+              "type": "string"
+            },
+            "required": true,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "types_ids",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "items": {
+                    "type": "integer"
+                  },
+                  "type": "array"
+                }
+              ]
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "not_types_ids",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "items": {
+                    "type": "integer"
+                  },
+                  "type": "array"
+                }
+              ]
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "min_weight",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "max_weight",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "relation_fields",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              ]
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "node_fields",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              ]
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "integer",
+                  "default": 0
+                }
+              ],
+              "default": 0
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "without_nodes",
+            "in": "query",
+            "schema": {
+              "type": "boolean",
+              "default": false
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Request fulfilled, document follows",
+            "headers": {},
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/APIRelationsRetType"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request syntax or unsupported method",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "status_code": {
+                      "type": "integer"
+                    },
+                    "detail": {
+                      "type": "string"
+                    },
+                    "extra": {
+                      "additionalProperties": {},
+                      "type": [
+                        "null",
+                        "object",
+                        "array"
+                      ]
+                    }
+                  },
+                  "type": "object",
+                  "required": [
+                    "detail",
+                    "status_code"
+                  ],
+                  "description": "Validation Exception",
+                  "examples": [
+                    {
+                      "status_code": 400,
+                      "detail": "Bad Request",
+                      "extra": {}
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/v0/relations/from/{node1_name}/to/{node2_name}": {
+      "get": {
+        "summary": "JdmmlPublicRelationGetRelationsFromTo",
+        "operationId": "V0RelationsFromNode1NameToNode2NameJdmmlPublicRelationGetRelationsFromTo",
+        "parameters": [
+          {
+            "name": "node1_name",
+            "in": "path",
+            "schema": {
+              "type": "string"
+            },
+            "required": true,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "node2_name",
+            "in": "path",
+            "schema": {
+              "type": "string"
+            },
+            "required": true,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "types_ids",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "items": {
+                    "type": "integer"
+                  },
+                  "type": "array"
+                }
+              ]
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "not_types_ids",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "items": {
+                    "type": "integer"
+                  },
+                  "type": "array"
+                }
+              ]
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "min_weight",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "max_weight",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "relation_fields",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              ]
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "node_fields",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              ]
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "integer",
+                  "default": 0
+                }
+              ],
+              "default": 0
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "without_nodes",
+            "in": "query",
+            "schema": {
+              "type": "boolean",
+              "default": false
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Request fulfilled, document follows",
+            "headers": {},
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/APIRelationsRetType"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request syntax or unsupported method",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "status_code": {
+                      "type": "integer"
+                    },
+                    "detail": {
+                      "type": "string"
+                    },
+                    "extra": {
+                      "additionalProperties": {},
+                      "type": [
+                        "null",
+                        "object",
+                        "array"
+                      ]
+                    }
+                  },
+                  "type": "object",
+                  "required": [
+                    "detail",
+                    "status_code"
+                  ],
+                  "description": "Validation Exception",
+                  "examples": [
+                    {
+                      "status_code": 400,
+                      "detail": "Bad Request",
+                      "extra": {}
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/v0/relations/to/{node2_name}": {
+      "get": {
+        "summary": "JdmmlPublicRelationGetRelationsTo",
+        "operationId": "V0RelationsToNode2NameJdmmlPublicRelationGetRelationsTo",
+        "parameters": [
+          {
+            "name": "node2_name",
+            "in": "path",
+            "schema": {
+              "type": "string"
+            },
+            "required": true,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "types_ids",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "items": {
+                    "type": "integer"
+                  },
+                  "type": "array"
+                }
+              ]
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "not_types_ids",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "items": {
+                    "type": "integer"
+                  },
+                  "type": "array"
+                }
+              ]
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "min_weight",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "max_weight",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "relation_fields",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              ]
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "node_fields",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              ]
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "oneOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "integer",
+                  "default": 0
+                }
+              ],
+              "default": 0
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          },
+          {
+            "name": "without_nodes",
+            "in": "query",
+            "schema": {
+              "type": "boolean",
+              "default": false
+            },
+            "required": false,
+            "deprecated": false,
+            "allowEmptyValue": false,
+            "allowReserved": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Request fulfilled, document follows",
+            "headers": {},
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/APIRelationsRetType"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request syntax or unsupported method",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "status_code": {
+                      "type": "integer"
+                    },
+                    "detail": {
+                      "type": "string"
+                    },
+                    "extra": {
+                      "additionalProperties": {},
+                      "type": [
+                        "null",
+                        "object",
+                        "array"
+                      ]
+                    }
+                  },
+                  "type": "object",
+                  "required": [
+                    "detail",
+                    "status_code"
+                  ],
+                  "description": "Validation Exception",
+                  "examples": [
+                    {
+                      "status_code": 400,
+                      "detail": "Bad Request",
+                      "extra": {}
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "/v0/relations_types": {
+      "get": {
+        "summary": "JdmmlPublicRelationTypeGetAll",
+        "description": "Returns the relations types.",
+        "operationId": "V0RelationsTypesJdmmlPublicRelationTypeGetAll",
+        "responses": {
+          "200": {
+            "description": "Request fulfilled, document follows",
+            "headers": {},
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/DC_PublicRelationType"
+                  },
+                  "type": "array"
+                }
+              }
+            }
+          }
+        },
+        "deprecated": false
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "APIRelationsRetType": {
+        "properties": {
+          "nodes": {
+            "items": {
+              "$ref": "#/components/schemas/DC_PublicNode"
+            },
+            "type": "array"
+          },
+          "relations": {
+            "items": {
+              "$ref": "#/components/schemas/DC_PublicRelation"
+            },
+            "type": "array"
+          }
+        },
+        "type": "object",
+        "required": [
+          "nodes",
+          "relations"
+        ],
+        "title": "APIRelationsRetType"
+      },
+      "DC_PublicNode": {
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "type": "integer"
+          },
+          "w": {
+            "type": "integer"
+          },
+          "c": {
+            "type": "integer"
+          },
+          "level": {
+            "type": "number"
+          },
+          "infoid": {
+            "type": "integer"
+          },
+          "creationdate": {
+            "type": "string",
+            "format": "date"
+          },
+          "touchdate": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "type": "object",
+        "required": [],
+        "title": "DC_PublicNode"
+      },
+      "DC_PublicNodeType": {
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "help": {
+            "type": "string"
+          }
+        },
+        "type": "object",
+        "required": [],
+        "title": "DC_PublicNodeType"
+      },
+      "DC_PublicRelation": {
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "node1": {
+            "type": "integer"
+          },
+          "node2": {
+            "type": "integer"
+          },
+          "type": {
+            "type": "integer"
+          },
+          "w": {
+            "type": "number"
+          },
+          "c": {
+            "type": "number"
+          },
+          "infoid": {
+            "type": "integer"
+          },
+          "creationdate": {
+            "type": "string",
+            "format": "date"
+          },
+          "touchdate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "nw": {
+            "type": "number"
+          }
+        },
+        "type": "object",
+        "required": [],
+        "title": "DC_PublicRelation"
+      },
+      "DC_PublicRelationType": {
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "gpname": {
+            "type": "string"
+          },
+          "quot": {
+            "type": "number"
+          },
+          "quotmin": {
+            "type": "number"
+          },
+          "quotmax": {
+            "type": "number"
+          },
+          "price": {
+            "type": "integer"
+          },
+          "help": {
+            "type": "string"
+          },
+          "playable": {
+            "type": "integer"
+          },
+          "oppos": {
+            "type": "integer"
+          },
+          "posyes": {
+            "type": "string"
+          },
+          "posno": {
+            "type": "string"
+          },
+          "constraint_ent": {
+            "type": "integer"
+          },
+          "constraints_start": {
+            "type": "string"
+          },
+          "constraints_end": {
+            "type": "string"
+          },
+          "carac": {
+            "type": "string"
+          }
+        },
+        "type": "object",
+        "required": [],
+        "title": "DC_PublicRelationType"
+      }
+    }
+  }
+}

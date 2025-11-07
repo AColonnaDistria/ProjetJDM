@@ -1,0 +1,853 @@
+Histoire1
+[sujet] client [predicat] entrer [objet] porte [lieu] restaurant
+[sujet] serveur [predicat] accueillir [objet] client
+[sujet] client [predicat] s'asseoir [objet] chaise
+[sujet] serveur [predicat] apporter [objet] menu
+[sujet] client [predicat] lire [objet] carte
+[sujet] client [predicat] choisir [objet] plat
+[sujet] serveur [predicat] prendre [objet] commande
+[sujet] cuisinier [predicat] préparer [objet] plat
+[sujet] client [predicat] manger [objet] repas
+[sujet] client [predicat] payer [objet] addition [lieu] caisse
+
+Histoire2
+[sujet] couple [predicat] entrer [objet] salle
+[sujet] hôte [predicat] montrer [objet] table
+[sujet] femme [predicat] regarder [objet] carte
+[sujet] homme [predicat] commander [objet] vin
+[sujet] serveur [predicat] servir [objet] bouteille
+[sujet] couple [predicat] trinquer [objet] verres
+[sujet] cuisinier [predicat] cuire [objet] pâtes
+[sujet] serveur [predicat] déposer [objet] assiette
+[sujet] femme [predicat] goûter [objet] plat
+[sujet] couple [predicat] discuter [objet] dessert
+
+Histoire95
+[sujet] couple [predicat] entrer [objet] salle
+[sujet] hôte [predicat] montrer [objet] table
+[sujet] femme [predicat] regarder [objet] carte
+[sujet] homme [predicat] commander [objet] vin
+[sujet] serveur [predicat] servir [objet] bouteille
+[sujet] couple [predicat] trinquer [objet] verres
+[sujet] cuisinier [predicat] cuire [objet] pâtes
+[sujet] serveur [predicat] déposer [objet] assiette
+[sujet] femme [predicat] goûter [objet] plat
+[sujet] couple [predicat] discuter [objet] dessert
+
+Histoire3
+[sujet] groupe [predicat] arriver [objet] entrée [temps] midi
+[sujet] hôtesse [predicat] accueillir [objet] groupe
+[sujet] enfants [predicat] jouer [objet] crayons
+[sujet] parents [predicat] lire [objet] menu
+[sujet] père [predicat] commander [objet] pizza
+[sujet] mère [predicat] commander [objet] salade
+[sujet] serveur [predicat] apporter [objet] boissons
+[sujet] famille [predicat] manger [objet] repas
+[sujet] enfants [predicat] réclamer [objet] glace
+[sujet] famille [predicat] remercier [objet] personnel
+
+Histoire4
+[sujet] femme [predicat] entrer [objet] restaurant [temps] soir
+[sujet] serveur [predicat] installer [objet] cliente
+[sujet] cliente [predicat] consulter [objet] menu
+[sujet] cliente [predicat] choisir [objet] soupe
+[sujet] serveur [predicat] servir [objet] soupe
+[sujet] cliente [predicat] goûter [objet] plat
+[sujet] cliente [predicat] apprécier [objet] saveur
+[sujet] serveur [predicat] retirer [objet] assiette
+[sujet] cliente [predicat] commander [objet] dessert
+[sujet] cliente [predicat] quitter [objet] salle
+
+Histoire5
+[sujet] homme [predicat] saluer [objet] serveur
+[sujet] homme [predicat] commander [objet] curry
+[sujet] serveur [predicat] confirmer [objet] commande
+[sujet] homme [predicat] regarder [objet] vitrine
+[sujet] cuisinier [predicat] mijoter [objet] plat
+[sujet] serveur [predicat] apporter [objet] assiette
+[sujet] homme [predicat] savourer [objet] repas
+[sujet] homme [predicat] demander [objet] café
+[sujet] serveur [predicat] verser [objet] café
+[sujet] homme [predicat] remercier [objet] serveur
+
+Histoire6
+[sujet] couple [predicat] choisir [objet] restaurant [temps] soir
+[sujet] couple [predicat] réserver [objet] table
+[sujet] serveur [predicat] accueillir [objet] couple
+[sujet] couple [predicat] discuter [objet] plat
+[sujet] femme [predicat] hésiter [objet] menu
+[sujet] homme [predicat] recommander [objet] viande
+[sujet] serveur [predicat] noter [objet] choix
+[sujet] cuisinier [predicat] préparer [objet] plat
+[sujet] couple [predicat] manger [objet] repas
+[sujet] couple [predicat] sortir [objet] restaurant
+
+Histoire7
+[sujet] étudiant [predicat] entrer [objet] cantine [temps] midi
+[sujet] étudiant [predicat] regarder [objet] buffet
+[sujet] serveur [predicat] servir [objet] poisson
+[sujet] étudiant [predicat] refuser [objet] légumes
+[sujet] étudiant [predicat] prendre [objet] pain
+[sujet] étudiant [predicat] s'asseoir [objet] table
+[sujet] étudiant [predicat] manger [objet] repas
+[sujet] étudiant [predicat] boire [objet] eau
+[sujet] étudiant [predicat] jeter [objet] plateau
+[sujet] étudiant [predicat] quitter [objet] cantine
+
+Histoire8
+[sujet] touriste [predicat] chercher [objet] restaurant
+[sujet] guide [predicat] conseiller [objet] adresse
+[sujet] touriste [predicat] trouver [objet] entrée
+[sujet] serveur [predicat] accueillir [objet] touriste
+[sujet] touriste [predicat] commander [objet] fruits
+[sujet] serveur [predicat] apporter [objet] plateau
+[sujet] touriste [predicat] photographier [objet] plat
+[sujet] touriste [predicat] publier [objet] photo
+[sujet] touriste [predicat] payer [objet] addition
+[sujet] touriste [predicat] remercier [objet] serveur
+
+Histoire9
+[sujet] serveur [predicat] nettoyer [objet] table [temps] matin
+[sujet] cuisinier [predicat] préparer [objet] ingrédients
+[sujet] manager [predicat] vérifier [objet] réservations
+[sujet] livreur [predicat] arriver [objet] cartons
+[sujet] serveur [predicat] ranger [objet] bouteilles
+[sujet] chef [predicat] goûter [objet] sauce
+[sujet] employé [predicat] couper [objet] légumes
+[sujet] stagiaire [predicat] apprendre [objet] recettes
+[sujet] cuisinier [predicat] disposer [objet] plats
+[sujet] manager [predicat] ouvrir [objet] porte
+
+Histoire10
+[sujet] enfant [predicat] entrer [objet] pizzeria
+[sujet] parent [predicat] aider [objet] enfant
+[sujet] pizzaiolo [predicat] étaler [objet] pâte
+[sujet] enfant [predicat] choisir [objet] garniture
+[sujet] pizzaiolo [predicat] ajouter [objet] fromage
+[sujet] four [predicat] chauffer [objet] pizza
+[sujet] pizzaiolo [predicat] sortir [objet] plat
+[sujet] serveur [predicat] servir [objet] pizza
+[sujet] enfant [predicat] manger [objet] part
+[sujet] parent [predicat] payer [objet] repas
+
+
+
+Histoire11
+[sujet] homme [predicat] entrer [objet] bistrot
+[sujet] barman [predicat] saluer [objet] client
+[sujet] client [predicat] s'installer [objet] tabouret
+[sujet] client [predicat] commander [objet] bière
+[sujet] barman [predicat] servir [objet] verre
+[sujet] client [predicat] boire [objet] boisson
+[sujet] client [predicat] discuter [objet] voisin
+[sujet] client [predicat] grignoter [objet] cacahuètes
+[sujet] client [predicat] régler [objet] addition
+[sujet] client [predicat] partir [objet] bistrot
+
+Histoire12
+[sujet] famille [predicat] entrer [objet] cafétéria
+[sujet] enfants [predicat] courir [objet] table
+[sujet] père [predicat] chercher [objet] plateau
+[sujet] mère [predicat] choisir [objet] plat
+[sujet] serveur [predicat] servir [objet] soupe
+[sujet] enfants [predicat] boire [objet] jus
+[sujet] famille [predicat] manger [objet] déjeuner
+[sujet] mère [predicat] demander [objet] dessert
+[sujet] serveur [predicat] apporter [objet] gâteau
+[sujet] famille [predicat] sortir [objet] cafétéria
+
+Histoire13
+[sujet] femme [predicat] entrer [objet] salon de thé
+[sujet] serveuse [predicat] saluer [objet] cliente
+[sujet] cliente [predicat] consulter [objet] carte
+[sujet] cliente [predicat] commander [objet] infusion
+[sujet] pâtissier [predicat] préparer [objet] tarte
+[sujet] serveuse [predicat] poser [objet] assiette
+[sujet] cliente [predicat] déguster [objet] dessert
+[sujet] cliente [predicat] lire [objet] livre
+[sujet] cliente [predicat] noter [objet] adresse
+[sujet] cliente [predicat] quitter [objet] salon
+
+Histoire14
+[sujet] groupe [predicat] réserver [objet] table [temps] soir
+[sujet] serveur [predicat] accueillir [objet] groupe
+[sujet] amis [predicat] discuter [objet] menu
+[sujet] cuisinier [predicat] préparer [objet] spécialité
+[sujet] serveur [predicat] servir [objet] plats
+[sujet] amis [predicat] trinquer [objet] verres
+[sujet] groupe [predicat] déguster [objet] repas
+[sujet] ami [predicat] complimenter [objet] chef
+[sujet] groupe [predicat] demander [objet] note
+[sujet] groupe [predicat] sortir [objet] restaurant
+
+Histoire15
+[sujet] adolescent [predicat] entrer [objet] fast-food
+[sujet] caissier [predicat] saluer [objet] client
+[sujet] adolescent [predicat] commander [objet] menu
+[sujet] cuisinier [predicat] frire [objet] frites
+[sujet] caissier [predicat] tendre [objet] sac
+[sujet] adolescent [predicat] s’asseoir [objet] banc
+[sujet] adolescent [predicat] manger [objet] hamburger
+[sujet] adolescent [predicat] jeter [objet] emballage
+[sujet] adolescent [predicat] boire [objet] soda
+[sujet] adolescent [predicat] quitter [objet] fast-food
+
+Histoire16
+[sujet] couple [predicat] entrer [objet] brasserie
+[sujet] serveur [predicat] indiquer [objet] table
+[sujet] femme [predicat] poser [objet] manteau
+[sujet] homme [predicat] lire [objet] menu
+[sujet] couple [predicat] commander [objet] entrée
+[sujet] serveur [predicat] servir [objet] salade
+[sujet] femme [predicat] apprécier [objet] assaisonnement
+[sujet] homme [predicat] complimenter [objet] service
+[sujet] couple [predicat] partager [objet] dessert
+[sujet] couple [predicat] remercier [objet] personnel
+
+Histoire17
+[sujet] touriste [predicat] entrer [objet] auberge
+[sujet] réceptionniste [predicat] saluer [objet] client
+[sujet] client [predicat] demander [objet] table
+[sujet] serveur [predicat] accompagner [objet] touriste
+[sujet] touriste [predicat] commander [objet] soupe locale
+[sujet] chef [predicat] cuisiner [objet] plat régional
+[sujet] serveur [predicat] présenter [objet] assiette
+[sujet] touriste [predicat] prendre [objet] photo
+[sujet] touriste [predicat] payer [objet] repas
+[sujet] touriste [predicat] sortir [objet] auberge
+
+Histoire18
+[sujet] étudiant [predicat] arriver [objet] restaurant universitaire
+[sujet] caissier [predicat] scanner [objet] carte
+[sujet] étudiant [predicat] prendre [objet] plateau
+[sujet] étudiant [predicat] choisir [objet] plat du jour
+[sujet] cuisinier [predicat] servir [objet] viande
+[sujet] étudiant [predicat] ajouter [objet] pain
+[sujet] étudiant [predicat] s’asseoir [objet] table
+[sujet] étudiant [predicat] manger [objet] déjeuner
+[sujet] étudiant [predicat] parler [objet] ami
+[sujet] étudiant [predicat] rendre [objet] plateau
+
+Histoire19
+[sujet] client [predicat] entrer [objet] bar à sushis
+[sujet] chef [predicat] saluer [objet] client
+[sujet] client [predicat] s’asseoir [objet] comptoir
+[sujet] client [predicat] commander [objet] assortiment
+[sujet] chef [predicat] découper [objet] poisson
+[sujet] chef [predicat] préparer [objet] makis
+[sujet] serveur [predicat] poser [objet] plateau
+[sujet] client [predicat] manger [objet] sushi
+[sujet] client [predicat] féliciter [objet] chef
+[sujet] client [predicat] payer [objet] note
+
+Histoire20
+[sujet] cliente [predicat] entrer [objet] pâtisserie
+[sujet] vendeuse [predicat] accueillir [objet] cliente
+[sujet] cliente [predicat] regarder [objet] vitrines
+[sujet] cliente [predicat] choisir [objet] éclair
+[sujet] vendeuse [predicat] emballer [objet] gâteau
+[sujet] cliente [predicat] commander [objet] boisson chaude
+[sujet] vendeuse [predicat] servir [objet] chocolat
+[sujet] cliente [predicat] s’installer [objet] table
+[sujet] cliente [predicat] savourer [objet] collation
+[sujet] cliente [predicat] sortir [objet] boutique
+
+Histoire21
+[sujet] client [predicat] entrer [objet] salle [lieu] restaurant [temps] midi
+[sujet] serveur [predicat] saluer [objet] client
+[sujet] client [predicat] choisir [objet] table [lieu] terrasse
+[sujet] serveur [predicat] poser [objet] carte
+[sujet] client [predicat] consulter [objet] menu
+[sujet] client [predicat] commander [objet] poisson
+[sujet] cuisinier [predicat] cuire [objet] saumon
+[sujet] serveur [predicat] servir [objet] plat
+[sujet] client [predicat] savourer [objet] repas
+[sujet] client [predicat] payer [objet] addition [lieu] comptoir
+
+Histoire22
+[sujet] couple [predicat] entrer [objet] brasserie [temps] soir
+[sujet] hôte [predicat] indiquer [objet] table
+[sujet] femme [predicat] consulter [objet] carte des vins
+[sujet] homme [predicat] commander [objet] apéritif
+[sujet] serveur [predicat] servir [objet] boisson
+[sujet] femme [predicat] complimenter [objet] ambiance
+[sujet] cuisinier [predicat] préparer [objet] risotto
+[sujet] couple [predicat] discuter [objet] voyage
+[sujet] serveur [predicat] proposer [objet] dessert
+[sujet] couple [predicat] quitter [objet] salle
+
+Histoire23
+[sujet] famille [predicat] arriver [objet] restaurant [temps] dimanche
+[sujet] serveur [predicat] accueillir [objet] famille
+[sujet] enfants [predicat] courir [objet] couloir
+[sujet] mère [predicat] lire [objet] menu
+[sujet] père [predicat] commander [objet] boeuf
+[sujet] serveur [predicat] apporter [objet] eau
+[sujet] enfants [predicat] dessiner [objet] set de table
+[sujet] famille [predicat] déguster [objet] repas
+[sujet] mère [predicat] demander [objet] glace
+[sujet] famille [predicat] remercier [objet] personnel
+
+Histoire24
+[sujet] homme [predicat] entrer [objet] café [lieu] centre-ville [temps] matin
+[sujet] barista [predicat] saluer [objet] client
+[sujet] client [predicat] commander [objet] cappuccino
+[sujet] barista [predicat] préparer [objet] café
+[sujet] client [predicat] s’asseoir [objet] fauteuil
+[sujet] client [predicat] lire [objet] journal
+[sujet] client [predicat] boire [objet] boisson
+[sujet] client [predicat] regarder [objet] vitrine
+[sujet] client [predicat] téléphoner [objet] collègue
+[sujet] client [predicat] sortir [objet] café
+
+Histoire25
+[sujet] étudiant [predicat] entrer [objet] cantine [temps] midi
+[sujet] cuisinier [predicat] servir [objet] plat du jour
+[sujet] étudiant [predicat] choisir [objet] dessert
+[sujet] serveur [predicat] poser [objet] plateau
+[sujet] étudiant [predicat] s’asseoir [objet] chaise
+[sujet] étudiant [predicat] discuter [objet] camarade
+[sujet] étudiant [predicat] boire [objet] jus
+[sujet] étudiant [predicat] jeter [objet] serviette
+[sujet] étudiant [predicat] nettoyer [objet] table
+[sujet] étudiant [predicat] quitter [objet] cantine
+
+Histoire26
+[sujet] cliente [predicat] arriver [objet] salon de thé [temps] après-midi
+[sujet] serveuse [predicat] accueillir [objet] cliente
+[sujet] cliente [predicat] consulter [objet] menu
+[sujet] cliente [predicat] commander [objet] thé vert
+[sujet] pâtissier [predicat] préparer [objet] tartelette
+[sujet] serveuse [predicat] poser [objet] plateau
+[sujet] cliente [predicat] lire [objet] roman
+[sujet] cliente [predicat] goûter [objet] pâtisserie
+[sujet] cliente [predicat] noter [objet] carnet
+[sujet] cliente [predicat] remercier [objet] personnel
+
+Histoire27
+[sujet] couple [predicat] entrer [objet] restaurant asiatique [temps] soir
+[sujet] serveur [predicat] indiquer [objet] table
+[sujet] femme [predicat] regarder [objet] carte
+[sujet] homme [predicat] commander [objet] soupe miso
+[sujet] cuisinier [predicat] préparer [objet] sushi
+[sujet] serveur [predicat] apporter [objet] plateau
+[sujet] couple [predicat] discuter [objet] recettes
+[sujet] femme [predicat] déguster [objet] sashimi
+[sujet] homme [predicat] boire [objet] thé
+[sujet] couple [predicat] sortir [objet] salle
+
+Histoire28
+[sujet] homme [predicat] entrer [objet] boulangerie [temps] matin
+[sujet] boulangère [predicat] saluer [objet] client
+[sujet] homme [predicat] choisir [objet] croissant
+[sujet] boulangère [predicat] emballer [objet] viennoiserie
+[sujet] homme [predicat] commander [objet] café
+[sujet] boulangère [predicat] verser [objet] boisson
+[sujet] homme [predicat] payer [objet] commande
+[sujet] homme [predicat] remercier [objet] boulangère
+[sujet] homme [predicat] sortir [objet] boutique
+[sujet] homme [predicat] manger [objet] croissant [lieu] banc
+
+Histoire29
+[sujet] groupe [predicat] entrer [objet] pizzeria [temps] samedi soir
+[sujet] serveur [predicat] accueillir [objet] groupe
+[sujet] amis [predicat] choisir [objet] table ronde
+[sujet] chacun [predicat] commander [objet] pizza différente
+[sujet] pizzaiolo [predicat] enfourner [objet] plats
+[sujet] serveur [predicat] apporter [objet] boissons
+[sujet] groupe [predicat] discuter [objet] match
+[sujet] amis [predicat] manger [objet] parts
+[sujet] groupe [predicat] diviser [objet] addition
+[sujet] amis [predicat] quitter [objet] restaurant
+
+Histoire30
+[sujet] client [predicat] entrer [objet] crêperie [temps] après-midi
+[sujet] serveuse [predicat] saluer [objet] client
+[sujet] client [predicat] s’asseoir [objet] terrasse
+[sujet] client [predicat] lire [objet] carte
+[sujet] client [predicat] commander [objet] crêpe au chocolat
+[sujet] cuisinier [predicat] préparer [objet] pâte
+[sujet] serveur [predicat] servir [objet] dessert
+[sujet] client [predicat] déguster [objet] plat
+[sujet] client [predicat] demander [objet] boisson fraîche
+[sujet] client [predicat] remercier [objet] équipe
+
+Histoire31
+[sujet] femme [predicat] entrer [objet] food court [lieu] centre commercial [temps] midi
+[sujet] femme [predicat] observer [objet] stands
+[sujet] femme [predicat] choisir [objet] spécialité indienne
+[sujet] vendeur [predicat] réchauffer [objet] curry
+[sujet] femme [predicat] payer [objet] assiette
+[sujet] femme [predicat] prendre [objet] couverts
+[sujet] femme [predicat] s’installer [objet] table
+[sujet] femme [predicat] manger [objet] repas
+[sujet] femme [predicat] jeter [objet] déchets
+[sujet] femme [predicat] sortir [objet] zone repas
+
+Histoire32
+[sujet] client [predicat] arriver [objet] restaurant [lieu] montagne [temps] hiver
+[sujet] serveur [predicat] proposer [objet] table près du feu
+[sujet] client [predicat] s’asseoir [objet] fauteuil
+[sujet] client [predicat] demander [objet] fondue
+[sujet] cuisinier [predicat] préparer [objet] fromage
+[sujet] serveur [predicat] apporter [objet] pain
+[sujet] client [predicat] tremper [objet] morceau
+[sujet] client [predicat] boire [objet] vin chaud
+[sujet] client [predicat] remercier [objet] chef
+[sujet] client [predicat] sortir [objet] chalet
+
+Histoire33
+[sujet] touriste [predicat] entrer [objet] taverne [lieu] vieux village
+[sujet] propriétaire [predicat] accueillir [objet] voyageur
+[sujet] touriste [predicat] poser [objet] sac
+[sujet] touriste [predicat] commander [objet] plat local
+[sujet] cuisinier [predicat] frémir [objet] pot-au-feu
+[sujet] hôte [predicat] raconter [objet] anecdote
+[sujet] touriste [predicat] manger [objet] dîner
+[sujet] touriste [predicat] prendre [objet] digestif
+[sujet] touriste [predicat] noter [objet] adresse
+[sujet] touriste [predicat] quitter [objet] taverne
+
+Histoire34
+[sujet] groupe [predicat] entrer [objet] restaurant végétarien [temps] soir
+[sujet] serveur [predicat] distribuer [objet] cartes
+[sujet] amis [predicat] discuter [objet] choix
+[sujet] cuisinier [predicat] cuire [objet] légumes
+[sujet] serveur [predicat] poser [objet] assiettes
+[sujet] groupe [predicat] goûter [objet] plats
+[sujet] ami [predicat] commander [objet] dessert
+[sujet] serveuse [predicat] apporter [objet] mousse au chocolat
+[sujet] amis [predicat] prendre [objet] photo
+[sujet] groupe [predicat] quitter [objet] lieu
+
+Histoire35
+[sujet] homme [predicat] entrer [objet] restaurant grec [lieu] port [temps] soir
+[sujet] serveur [predicat] accueillir [objet] client
+[sujet] client [predicat] consulter [objet] carte
+[sujet] client [predicat] commander [objet] moussaka
+[sujet] cuisinier [predicat] enfourner [objet] plat
+[sujet] serveur [predicat] apporter [objet] vin
+[sujet] client [predicat] admirer [objet] coucher de soleil
+[sujet] client [predicat] savourer [objet] dîner
+[sujet] client [predicat] saluer [objet] personnel
+[sujet] client [predicat] repartir [objet] promenade
+
+Histoire36
+[sujet] cliente [predicat] entrer [objet] glacier [temps] été
+[sujet] vendeur [predicat] proposer [objet] parfums
+[sujet] cliente [predicat] choisir [objet] cornet
+[sujet] vendeur [predicat] servir [objet] boule de vanille
+[sujet] cliente [predicat] s’asseoir [objet] banc [lieu] terrasse
+[sujet] cliente [predicat] savourer [objet] glace
+[sujet] enfant [predicat] regarder [objet] vitrine
+[sujet] cliente [predicat] offrir [objet] sorbet
+[sujet] enfant [predicat] remercier [objet] dame
+[sujet] cliente [predicat] jeter [objet] serviette
+
+Histoire37
+[sujet] couple [predicat] arriver [objet] auberge [lieu] campagne
+[sujet] hôte [predicat] guider [objet] clients
+[sujet] couple [predicat] s’installer [objet] salle à manger
+[sujet] femme [predicat] consulter [objet] menu du jour
+[sujet] homme [predicat] commander [objet] confit de canard
+[sujet] cuisinier [predicat] cuire [objet] viande
+[sujet] serveur [predicat] servir [objet] vin rouge
+[sujet] couple [predicat] manger [objet] repas
+[sujet] femme [predicat] commander [objet] tarte aux pommes
+[sujet] couple [predicat] applaudir [objet] cuisinier
+
+Histoire38
+[sujet] homme [predicat] entrer [objet] self [lieu] entreprise [temps] midi
+[sujet] homme [predicat] prendre [objet] plateau
+[sujet] serveur [predicat] proposer [objet] gratin
+[sujet] homme [predicat] refuser [objet] entrée
+[sujet] homme [predicat] choisir [objet] dessert
+[sujet] homme [predicat] payer [objet] repas
+[sujet] homme [predicat] saluer [objet] collègue
+[sujet] homme [predicat] s’asseoir [objet] table
+[sujet] homme [predicat] manger [objet] plat
+[sujet] homme [predicat] jeter [objet] déchets
+
+Histoire39
+[sujet] enfant [predicat] entrer [objet] boulangerie [temps] mercredi
+[sujet] boulangère [predicat] saluer [objet] garçon
+[sujet] enfant [predicat] choisir [objet] pain au chocolat
+[sujet] boulangère [predicat] emballer [objet] viennoiserie
+[sujet] enfant [predicat] donner [objet] pièce
+[sujet] boulangère [predicat] rendre [objet] monnaie
+[sujet] enfant [predicat] sortir [objet] boutique
+[sujet] enfant [predicat] croquer [objet] goûter
+[sujet] enfant [predicat] sourire [objet] passant
+[sujet] enfant [predicat] courir [objet] trottoir
+
+Histoire40
+[sujet] touriste [predicat] découvrir [objet] marché couvert [lieu] ville
+[sujet] vendeur [predicat] offrir [objet] dégustation
+[sujet] touriste [predicat] goûter [objet] fromage
+[sujet] guide [predicat] expliquer [objet] spécialités
+[sujet] touriste [predicat] acheter [objet] produits locaux
+[sujet] vendeur [predicat] emballer [objet] panier
+[sujet] touriste [predicat] prendre [objet] photo
+[sujet] touriste [predicat] remercier [objet] commerçants
+[sujet] touriste [predicat] boire [objet] jus de fruits
+[sujet] touriste [predicat] quitter [objet] marché
+
+Histoire41
+[sujet] homme [predicat] entrer [objet] bistrot [lieu] quartier
+[sujet] serveur [predicat] présenter [objet] ardoise
+[sujet] homme [predicat] commander [objet] steak-frites
+[sujet] cuisinier [predicat] préparer [objet] garniture
+[sujet] serveur [predicat] servir [objet] plat principal
+[sujet] homme [predicat] ajouter [objet] sauce
+[sujet] homme [predicat] manger [objet] assiette
+[sujet] homme [predicat] demander [objet] café
+[sujet] serveur [predicat] apporter [objet] tasse
+[sujet] homme [predicat] quitter [objet] bistrot
+
+Histoire42
+[sujet] cliente [predicat] arriver [objet] cafétéria [temps] matin
+[sujet] employée [predicat] proposer [objet] formule petit-déjeuner
+[sujet] cliente [predicat] choisir [objet] jus d’orange
+[sujet] employée [predicat] servir [objet] croissant
+[sujet] cliente [predicat] s’asseoir [objet] tabouret
+[sujet] cliente [predicat] consulter [objet] téléphone
+[sujet] cliente [predicat] boire [objet] boisson chaude
+[sujet] cliente [predicat] noter [objet] rendez-vous
+[sujet] cliente [predicat] ranger [objet] sac
+[sujet] cliente [predicat] sortir [objet] bâtiment
+
+Histoire43
+[sujet] étudiant [predicat] arriver [objet] cafétéria [lieu] université
+[sujet] étudiant [predicat] prendre [objet] plateau
+[sujet] cuisinier [predicat] remplir [objet] assiette
+[sujet] étudiant [predicat] choisir [objet] dessert
+[sujet] étudiant [predicat] chercher [objet] table libre
+[sujet] étudiant [predicat] saluer [objet] camarade
+[sujet] étudiant [predicat] discuter [objet] devoir
+[sujet] étudiant [predicat] manger [objet] repas
+[sujet] étudiant [predicat] jeter [objet] déchets
+[sujet] étudiant [predicat] repartir [objet] bibliothèque
+
+Histoire44
+[sujet] famille [predicat] entrer [objet] auberge [temps] vacances
+[sujet] hôtesse [predicat] guider [objet] groupe
+[sujet] enfants [predicat] s’asseoir [objet] banc
+[sujet] parents [predicat] lire [objet] menu
+[sujet] père [predicat] commander [objet] spécialité locale
+[sujet] serveur [predicat] apporter [objet] carafe d’eau
+[sujet] mère [predicat] choisir [objet] plat végétarien
+[sujet] enfants [predicat] dessiner [objet] nappe
+[sujet] famille [predicat] savourer [objet] repas
+[sujet] famille [predicat] féliciter [objet] cuisinier
+
+Histoire45
+[sujet] homme [predicat] entrer [objet] taverne [lieu] montagne
+[sujet] tenancier [predicat] proposer [objet] place près du feu
+[sujet] homme [predicat] retirer [objet] manteau
+[sujet] homme [predicat] commander [objet] soupe
+[sujet] cuisinier [predicat] chauffer [objet] marmite
+[sujet] tenancier [predicat] servir [objet] bol fumant
+[sujet] homme [predicat] boire [objet] potage
+[sujet] homme [predicat] discuter [objet] voyage
+[sujet] homme [predicat] payer [objet] repas
+[sujet] homme [predicat] quitter [objet] refuge
+
+Histoire46
+[sujet] couple [predicat] entrer [objet] restaurant romantique [temps] soir
+[sujet] serveur [predicat] guider [objet] couple
+[sujet] femme [predicat] admirer [objet] décoration
+[sujet] homme [predicat] commander [objet] champagne
+[sujet] serveur [predicat] ouvrir [objet] bouteille
+[sujet] couple [predicat] trinquer [objet] flûtes
+[sujet] femme [predicat] choisir [objet] poisson
+[sujet] homme [predicat] prendre [objet] viande
+[sujet] couple [predicat] partager [objet] dessert
+[sujet] couple [predicat] remercier [objet] personnel
+
+Histoire47
+[sujet] homme [predicat] entrer [objet] food truck [temps] midi
+[sujet] vendeur [predicat] saluer [objet] client
+[sujet] homme [predicat] commander [objet] burger
+[sujet] cuisinier [predicat] griller [objet] steak
+[sujet] homme [predicat] attendre [objet] commande
+[sujet] vendeur [predicat] donner [objet] sachet
+[sujet] homme [predicat] s’asseoir [objet] muret
+[sujet] homme [predicat] manger [objet] sandwich
+[sujet] homme [predicat] jeter [objet] emballage
+[sujet] homme [predicat] retourner [objet] bureau
+
+Histoire48
+[sujet] femme [predicat] entrer [objet] restaurant rapide [temps] soir
+[sujet] caissier [predicat] saluer [objet] cliente
+[sujet] femme [predicat] commander [objet] menu
+[sujet] caissier [predicat] imprimer [objet] ticket
+[sujet] femme [predicat] attendre [objet] plateau
+[sujet] employé [predicat] servir [objet] repas
+[sujet] femme [predicat] ajouter [objet] sauce
+[sujet] femme [predicat] manger [objet] frites
+[sujet] femme [predicat] boire [objet] soda
+[sujet] femme [predicat] quitter [objet] salle
+
+Histoire49
+[sujet] adolescent [predicat] entrer [objet] sandwicherie [temps] après-midi
+[sujet] vendeur [predicat] proposer [objet] formule étudiante
+[sujet] adolescent [predicat] choisir [objet] panini
+[sujet] vendeur [predicat] chauffer [objet] pain
+[sujet] adolescent [predicat] prendre [objet] dessert
+[sujet] adolescent [predicat] payer [objet] repas
+[sujet] adolescent [predicat] sortir [objet] monnaie
+[sujet] adolescent [predicat] s’asseoir [objet] terrasse
+[sujet] adolescent [predicat] écouter [objet] musique
+[sujet] adolescent [predicat] terminer [objet] déjeuner
+
+Histoire50
+[sujet] client [predicat] arriver [objet] restaurant de sushis [temps] midi
+[sujet] hôte [predicat] accueillir [objet] client
+[sujet] client [predicat] s’installer [objet] comptoir
+[sujet] chef [predicat] préparer [objet] nigiri
+[sujet] serveur [predicat] poser [objet] plateau
+[sujet] client [predicat] tremper [objet] sushi
+[sujet] client [predicat] déguster [objet] plat
+[sujet] client [predicat] regarder [objet] chef travailler
+[sujet] client [predicat] commander [objet] soupe miso
+[sujet] client [predicat] payer [objet] repas
+
+Histoire51
+[sujet] famille [predicat] entrer [objet] restaurant italien [temps] dimanche
+[sujet] serveur [predicat] accueillir [objet] famille
+[sujet] père [predicat] commander [objet] lasagnes
+[sujet] mère [predicat] choisir [objet] salade
+[sujet] enfants [predicat] dessiner [objet] set de table
+[sujet] serveur [predicat] servir [objet] plats
+[sujet] famille [predicat] manger [objet] déjeuner
+[sujet] père [predicat] commander [objet] café
+[sujet] mère [predicat] commander [objet] dessert
+[sujet] famille [predicat] remercier [objet] serveur
+
+Histoire52
+[sujet] client [predicat] entrer [objet] restaurant marocain [temps] soir
+[sujet] serveur [predicat] guider [objet] client
+[sujet] client [predicat] commander [objet] couscous
+[sujet] cuisinier [predicat] mijoter [objet] légumes
+[sujet] serveur [predicat] apporter [objet] thé à la menthe
+[sujet] client [predicat] apprécier [objet] ambiance
+[sujet] client [predicat] manger [objet] repas
+[sujet] client [predicat] prendre [objet] photo
+[sujet] client [predicat] payer [objet] addition
+[sujet] client [predicat] sortir [objet] restaurant
+
+Histoire53
+[sujet] enfant [predicat] entrer [objet] crêperie [temps] mercredi après-midi
+[sujet] parent [predicat] accompagner [objet] enfant
+[sujet] serveuse [predicat] saluer [objet] famille
+[sujet] enfant [predicat] choisir [objet] crêpe au sucre
+[sujet] cuisinier [predicat] faire [objet] pâte
+[sujet] parent [predicat] commander [objet] cidre
+[sujet] serveuse [predicat] poser [objet] assiette
+[sujet] enfant [predicat] manger [objet] dessert
+[sujet] parent [predicat] discuter [objet] vacances
+[sujet] famille [predicat] quitter [objet] lieu
+
+Histoire54
+[sujet] étudiant [predicat] entrer [objet] cafétéria universitaire [temps] matin
+[sujet] caissière [predicat] scanner [objet] carte étudiante
+[sujet] étudiant [predicat] prendre [objet] café
+[sujet] étudiant [predicat] choisir [objet] viennoiserie
+[sujet] étudiant [predicat] s’asseoir [objet] table en bois
+[sujet] étudiant [predicat] réviser [objet] cours
+[sujet] étudiant [predicat] boire [objet] boisson chaude
+[sujet] étudiant [predicat] grignoter [objet] croissant
+[sujet] étudiant [predicat] jeter [objet] gobelet
+[sujet] étudiant [predicat] partir [objet] bibliothèque
+
+Histoire55
+[sujet] homme [predicat] entrer [objet] brasserie [temps] soir
+[sujet] serveur [predicat] accueillir [objet] client
+[sujet] client [predicat] commander [objet] bière
+[sujet] brasseur [predicat] tirer [objet] pression
+[sujet] client [predicat] grignoter [objet] olives
+[sujet] musicien [predicat] jouer [objet] guitare
+[sujet] client [predicat] écouter [objet] mélodie
+[sujet] client [predicat] applaudir [objet] artiste
+[sujet] client [predicat] régler [objet] note
+[sujet] client [predicat] sortir [objet] établissement
+
+Histoire56
+[sujet] client [predicat] entrer [objet] taverne [temps] soir
+[sujet] serveur [predicat] proposer [objet] boisson
+[sujet] client [predicat] choisir [objet] cidre
+[sujet] cuisinier [predicat] préparer [objet] planche de charcuterie
+[sujet] serveur [predicat] servir [objet] assiette
+[sujet] client [predicat] déguster [objet] fromage
+[sujet] musicien [predicat] jouer [objet] accordéon
+[sujet] client [predicat] chanter [objet] refrain
+[sujet] client [predicat] payer [objet] addition
+[sujet] client [predicat] quitter [objet] taverne
+
+Histoire57
+[sujet] touriste [predicat] arriver [objet] cantine locale [lieu] village [temps] midi
+[sujet] cuisinier [predicat] servir [objet] soupe
+[sujet] touriste [predicat] goûter [objet] plat traditionnel
+[sujet] touriste [predicat] commander [objet] pain maison
+[sujet] hôte [predicat] raconter [objet] recette
+[sujet] touriste [predicat] prendre [objet] photo
+[sujet] touriste [predicat] noter [objet] carnet
+[sujet] hôte [predicat] offrir [objet] infusion
+[sujet] touriste [predicat] acheter [objet] pot de miel
+[sujet] touriste [predicat] quitter [objet] lieu
+
+Histoire58
+[sujet] étudiant [predicat] entrer [objet] snack universitaire [temps] après-midi
+[sujet] caissier [predicat] proposer [objet] formule étudiante
+[sujet] étudiant [predicat] choisir [objet] sandwich
+[sujet] cuisinier [predicat] toaster [objet] pain
+[sujet] étudiant [predicat] prendre [objet] boisson
+[sujet] étudiant [predicat] s’asseoir [objet] table libre
+[sujet] étudiant [predicat] écouter [objet] podcast
+[sujet] étudiant [predicat] terminer [objet] repas
+[sujet] étudiant [predicat] jeter [objet] emballage
+[sujet] étudiant [predicat] partir [objet] salle d’étude
+
+Histoire59
+[sujet] cliente [predicat] entrer [objet] pâtisserie [temps] matin
+[sujet] pâtissier [predicat] proposer [objet] tarte aux fruits
+[sujet] cliente [predicat] acheter [objet] gâteau
+[sujet] cliente [predicat] demander [objet] emballage cadeau
+[sujet] pâtissier [predicat] décorer [objet] boîte
+[sujet] cliente [predicat] payer [objet] commande
+[sujet] cliente [predicat] remercier [objet] vendeur
+[sujet] cliente [predicat] sortir [objet] boutique
+[sujet] cliente [predicat] rejoindre [objet] amie
+[sujet] cliente [predicat] offrir [objet] surprise
+
+Histoire60
+[sujet] homme [predicat] entrer [objet] café [temps] matin
+[sujet] barista [predicat] proposer [objet] spécialité du jour
+[sujet] homme [predicat] commander [objet] espresso
+[sujet] homme [predicat] consulter [objet] journal
+[sujet] barista [predicat] servir [objet] boisson
+[sujet] homme [predicat] boire [objet] café
+[sujet] homme [predicat] écrire [objet] notes
+[sujet] homme [predicat] appeler [objet] collègue
+[sujet] homme [predicat] payer [objet] consommation
+[sujet] homme [predicat] quitter [objet] café
+
+Histoire61
+[sujet] Chef [predicat] goûter [objet] sauce
+[sujet] Serveur [predicat] déposer [objet] assiette [lieu] table
+[sujet] Client [predicat] admirer [objet] présentation [temps] midi
+[sujet] Enfant [predicat] renverser [objet] verre [lieu] terrasse
+[sujet] Mère [predicat] nettoyer [objet] chemise
+[sujet] Chef [predicat] crier [objet] commande [lieu] cuisine
+[sujet] Serveuse [predicat] noter [objet] dessert
+[sujet] Gérant [predicat] saluer [objet] habitués [temps] soir
+[sujet] Groupe [predicat] réserver [objet] table [temps] samedi
+[sujet] Musicien [predicat] jouer [objet] chanson [lieu] salle
+
+Histoire62
+[sujet] Client [predicat] attendre [objet] plat [lieu] véranda
+[sujet] Chef [predicat] préparer [objet] soupe [temps] matin
+[sujet] Touriste [predicat] commander [objet] menu
+[sujet] Enfant [predicat] dessiner [objet] pizza [lieu] nappe
+[sujet] Vieux monsieur [predicat] raconter [objet] histoire
+[sujet] Cuisinier [predicat] flamber [objet] crêpe [temps] soirée
+[sujet] Chat [predicat] voler [objet] crevette [lieu] cuisine
+[sujet] Étudiant [predicat] prendre [objet] café [temps] pause
+[sujet] Critique [predicat] rédiger [objet] article
+[sujet] Propriétaire [predicat] accrocher [objet] tableau [lieu] mur
+
+Histoire63
+[sujet] Chef [predicat] découper [objet] viande [lieu] cuisine
+[sujet] Apprenti [predicat] observer [objet] geste [temps] matin
+[sujet] Serveuse [predicat] verser [objet] vin [lieu] salle
+[sujet] Couple [predicat] savourer [objet] plat [temps] dîner
+[sujet] Bébé [predicat] jeter [objet] cuillère
+[sujet] Mère [predicat] ramasser [objet] jouet [lieu] sol
+[sujet] Pianiste [predicat] jouer [objet] mélodie [lieu] coin
+[sujet] Client [predicat] applaudir [objet] performance
+[sujet] Photographe [predicat] capturer [objet] ambiance [temps] soir
+[sujet] Gérant [predicat] remercier [objet] artiste
+
+Histoire64
+[sujet] Étudiante [predicat] lire [objet] menu [lieu] terrasse
+[sujet] Ami [predicat] recommander [objet] plat
+[sujet] Serveur [predicat] proposer [objet] spécialité
+[sujet] Étudiante [predicat] choisir [objet] salade [temps] midi
+[sujet] Cuistot [predicat] préparer [objet] assiette [lieu] cuisine
+[sujet] Vent [predicat] souffler [objet] serviette
+[sujet] Étudiante [predicat] rattraper [objet] nappe [temps] instant
+[sujet] Enfant [predicat] courir [objet] ballon [lieu] terrasse
+[sujet] Père [predicat] appeler [objet] garçon
+[sujet] Chien [predicat] aboyer [objet] pigeon
+
+Histoire65
+[sujet] Chef [predicat] dresser [objet] assiette [temps] midi
+[sujet] Client [predicat] contempler [objet] couleur
+[sujet] Fille [predicat] montrer [objet] photo [lieu] table
+[sujet] Ami [predicat] rire [objet] anecdote
+[sujet] Musicien [predicat] accorder [objet] guitare [temps] début
+[sujet] Groupe [predicat] chanter [objet] refrain
+[sujet] Touriste [predicat] goûter [objet] spécialité [lieu] terrasse
+[sujet] Pigeon [predicat] picorer [objet] miettes [lieu] sol
+[sujet] Serveuse [predicat] essuyer [objet] verre
+[sujet] Propriétaire [predicat] vérifier [objet] caisse [temps] nuit
+
+Histoire66
+[sujet] Garçon [predicat] dessiner [objet] pizza [lieu] nappe
+[sujet] Mère [predicat] sourire [objet] dessin
+[sujet] Serveur [predicat] déposer [objet] limonade [temps] après-midi
+[sujet] Fille [predicat] boire [objet] gorgée
+[sujet] Gérant [predicat] observer [objet] scène [lieu] comptoir
+[sujet] Chef [predicat] discuter [objet] menu [temps] demain
+[sujet] Client [predicat] réserver [objet] table [temps] samedi
+[sujet] Ami [predicat] téléphoner [objet] frère
+[sujet] Chien [predicat] attendre [objet] reste [lieu] porte
+[sujet] Pluie [predicat] tomber [objet] gouttes [temps] soir
+
+Histoire67
+[sujet] Cuisinier [predicat] mélanger [objet] ingrédients [temps] matin
+[sujet] Client [predicat] réclamer [objet] note [lieu] comptoir
+[sujet] Serveuse [predicat] apporter [objet] ticket
+[sujet] Homme [predicat] sortir [objet] carte [temps] instant
+[sujet] Machine [predicat] refuser [objet] paiement
+[sujet] Client [predicat] s’étonner [objet] refus
+[sujet] Collègue [predicat] proposer [objet] espèce
+[sujet] Client [predicat] remercier [objet] ami
+[sujet] Groupe [predicat] quitter [objet] table [lieu] entrée
+[sujet] Soleil [predicat] éclairer [objet] façade [temps] midi
+
+Histoire68
+[sujet] Étudiant [predicat] écrire [objet] poème [lieu] terrasse
+[sujet] Serveuse [predicat] observer [objet] carnet
+[sujet] Vent [predicat] tourner [objet] page [temps] matin
+[sujet] Homme [predicat] lire [objet] vers
+[sujet] Femme [predicat] sourire [objet] texte
+[sujet] Ami [predicat] applaudir [objet] passage
+[sujet] Gérant [predicat] offrir [objet] café [temps] pause
+[sujet] Étudiant [predicat] remercier [objet] geste
+[sujet] Chat [predicat] grimper [objet] chaise [lieu] terrasse
+[sujet] Cuisinier [predicat] sortir [objet] friandise [temps] fin
+
+Histoire69
+[sujet] Grand-père [predicat] raconter [objet] histoire [lieu] table
+[sujet] Petit-fils [predicat] écouter [objet] anecdote [temps] déjeuner
+[sujet] Serveur [predicat] poser [objet] soupe
+[sujet] Enfant [predicat] souffler [objet] cuillère
+[sujet] Mère [predicat] surveiller [objet] geste
+[sujet] Homme [predicat] lire [objet] journal [temps] midi
+[sujet] Femme [predicat] manger [objet] salade
+[sujet] Fille [predicat] dessiner [objet] soleil [lieu] serviette
+[sujet] Voisin [predicat] complimenter [objet] dessin
+[sujet] Fille [predicat] remercier [objet] monsieur
+
+Histoire70
+[sujet] Chef [predicat] inventer [objet] recette [temps] matin
+[sujet] Serveur [predicat] goûter [objet] bouchée
+[sujet] Critique [predicat] arriver [objet] carnet [lieu] salle
+[sujet] Gérant [predicat] accueillir [objet] invité
+[sujet] Critique [predicat] noter [objet] saveurs
+[sujet] Serveuse [predicat] recommander [objet] dessert
+[sujet] Critique [predicat] choisir [objet] moelleux
+[sujet] Four [predicat] cuire [objet] gâteau [temps] service
+[sujet] Chef [predicat] dresser [objet] assiette
+[sujet] Critique [predicat] sourire [objet] plaisir
