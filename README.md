@@ -1,7 +1,7 @@
 
-# 📘 Projet Jeux de Mots — Chaînes de triplet de narration
+# Projet Jeux de Mots — Chaînes de triplet de narration
 
-## 🧠 Objectif
+## Objectif
 
 Ce projet a pour but de :
 - Représenter des histoires sous forme de chaînes de **factoïdes structurés** (`[sujet]`, `[prédicat]`, `[objet]`, etc.)
@@ -11,7 +11,7 @@ Ce projet a pour but de :
 
 ---
 
-## 🗂️ Structure du projet
+## Structure du projet
 
 | Fichier / Dossier            | Description |
 |-----------------------------|-------------|
@@ -26,7 +26,7 @@ Ce projet a pour but de :
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 1. **Télécharger le projet**
 
@@ -42,7 +42,7 @@ mkdir -p data/stories data/factoids data/cache
 
 ---
 
-## 🚀 Utilisation (CLI)
+## Utilisation (CLI)
 
 Lancer le programme :
 ```bash
@@ -63,7 +63,7 @@ python main.py <commande> [options]
 
 ---
 
-## ✍️ Format d’entrée attendu
+## Format d’entrée attendu
 
 Chaque ligne représente un fait :
 ```text
@@ -74,7 +74,7 @@ Les lignes contenant `?` sont considérées comme **manquantes** et seront préd
 
 ---
 
-## 🔮 Exemple
+## Exemple
 
 ```bash
 python main.py predict
@@ -91,19 +91,19 @@ Le système prédit automatiquement la ligne manquante.
 
 ---
 
-## 📄 Documentation
+## Documentation
 
 La documentation détaillée (PDF) se trouve dans le fichier Documentation.pdf
 
 ---
 
 
-## 📦 Dépendances principales
+## Dépendances principales
 
 - `requests`
 
 ---
 
-## 👨‍💻 Auteur
+## Auteur
 
 Projet pédagogique basé sur le réseau lexical **JeuxDeMots** – www.jeuxdemots.org
